@@ -17,7 +17,6 @@ applied.
 import React from "react";
 import gql from "graphql-tag";
 import { FormProvider } from "@ttoohey/react-form";
-import types from "./dataTransform";
 
 const queries = {
   allTodos: gql`
@@ -132,7 +131,7 @@ the list.
 // ListTodos.js
 import React from "react";
 import gql from "graphql-tag";
-import { useQuery } from "react-apollo-hooks";
+import { useQuery } from "@apollo/react-hooks";
 import ErrorBox from "../components/ErrorBox";
 import EditTodo from "./EditTodo";
 

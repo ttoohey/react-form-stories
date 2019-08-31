@@ -1,6 +1,6 @@
 import React from "react";
 import gql from "graphql-tag";
-import { useQuery } from "react-apollo-hooks";
+import { useQuery } from "@apollo/react-hooks";
 import ErrorBox from "../components/ErrorBox";
 import EditTodo from "./EditTodo";
 

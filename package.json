@@ -12,12 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ttoohey/react-form": "^1.0.0",
+    "@ttoohey/react-form": "^1.1.0",
     "apollo-server": "^2.7.0",
     "graphql": "^14.4.2",
     "require-directory": "^2.1.1"
   },
   "devDependencies": {
+    "@apollo/react-hooks": "^3.0.1",
     "@babel/core": "^7.5.5",
     "@babel/node": "^7.5.5",
     "@babel/plugin-proposal-export-default-from": "^7.5.2",
@@ -41,7 +42,6 @@
     "graphql-data-transform": "^1.0.3",
     "nodemon": "^1.19.1",
     "prettier": "^1.18.2",
-    "react-apollo-hooks": "^0.4.5",
     "react-use-validator": "^1.0.4",
     "validator": "^11.1.0",
     "webpack-graphql-loader": "^1.0.2"
