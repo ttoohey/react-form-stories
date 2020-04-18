@@ -3,6 +3,8 @@ import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
 import ContextForm from "./ContextForm";
 import ContextFormReadme from "./ContextForm.md";
+import HookForm from "./HookForm";
+import HookFormReadme from "./HookForm.md";
 import RenderPropsForm from "./RenderPropsForm";
 import RenderPropsFormReadme from "./RenderPropsForm.md";
 import ValidateForm from "./ValidateForm";
@@ -20,6 +22,13 @@ storiesOf("Simple forms", module)
       }
     }
   )
+  .add("Using useForm hook", () => <HookForm onSubmit={action("submit")} />, {
+    info: {
+      text: HookFormReadme,
+      propTablesExclude: [HookForm],
+      inline: true
+    }
+  })
   .add(
     "Using form context",
     () => <ContextForm onSubmit={action("submit")} />,

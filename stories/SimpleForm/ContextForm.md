@@ -29,6 +29,6 @@ export default function MyForm({ onSubmit }) {
 }
 ```
 
-Note that when compared to the "render props" method, context aware field components
-allow a simpler syntax due to no longer needing to specify the `value` and
-`onChange` props on each field.
+Note that when compared to the "render props" and "hook" techniques, context
+aware field components allow a simpler syntax due to no longer needing to
+specify the `value` and `onChange` props on each field.
