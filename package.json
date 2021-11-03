@@ -43,7 +43,7 @@
     "nodemon": "^1.19.4",
     "prettier": "^1.19.1",
     "react-use-validator": "^1.0.4",
-    "validator": "^11.1.0",
+    "validator": "^13.7.0",
     "webpack-graphql-loader": "^1.0.2"
   }
 }
